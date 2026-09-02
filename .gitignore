@@ -1,0 +1,17 @@
+# Database credentials — never commit
+mysql-local.env
+*.env
+
+# Local Claude Desktop / MCP config (can contain credentials)
+claude_desktop_config.json
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Node
+node_modules/
+npm-debug.log*
